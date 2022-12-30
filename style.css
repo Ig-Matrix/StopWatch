@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background: url(/project-4.jpg) repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    width: 60%;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 0 3px;
+  }
+  #timer {
+    width: 100%;
+    font-size: 72px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 35px;
+  }
+  .buttons {
+    text-align: center;
+  }
+  button {
+    margin: 0 10px;
+    border: none;
+  }
+  button i {
+    font-size: 2rem;
+    padding: 2px;
+    color: #fff;
+    width: 50px;
+  }
+  #play {
+    background-color: green;
+  }
+  #reset {
+    background-color: red;
+  }
+  #pause {
+    background-color: orange;
+  }
+  
